@@ -4,3 +4,9 @@ form {
 main {
     display: flex;
 }
+.main-title {
+    text-align: center;
+}
+aside {
+    padding: 48px;
+}
