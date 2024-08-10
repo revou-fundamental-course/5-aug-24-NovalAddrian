@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css\style.css">
+    <link rel= "stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
 </head>
 <body>
     <header>
@@ -12,26 +15,36 @@
     </header>
     <main>
         <aside>
-        <article class>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam veritatis dolore voluptatem, neque asperiores esse a vitae repellendus illo incidunt quas provident sapiente earum laborum, aliquid perspiciatis! Numquam quo labore dignissimos nulla, eaque deserunt tempora quaerat quasi optio ad qui ex harum iure ipsam omnis impedit modi, hic sunt provident alias amet fuga quidem nam! Eaque, ipsam officia! Obcaecati ut veritatis omnis. Ipsam explicabo fugiat culpa corrupti pariatur id vero, quod quas cumque, provident quasi? Excepturi, cupiditate molestiae autem culpa modi explicabo dignissimos, consequuntur, ut earum perspiciatis quas saepe doloremque. Modi quasi, eligendi voluptates sunt laboriosam exercitationem reprehenderit error voluptatem!</p>
+        <article>
+            <p>BMI adalah singkatan dari Body Mass Index, yaitu suatu ukuran yang digunakan untuk menilai proporsi antara tinggi dan berat badan seseorang. Kalkulator BMI digunakan untuk mengukur indeks massa tubuh Anda dan mengetahui apakah berat badan Anda ideal.</p>
+        <hr>
         </article>
         <form action="">
-            <div>
-                <h3>Jenis Kelamin</h3>
-                <input type="radio" name="jenis-kelamin" id="pria"><label for="pria" value="pria">Pria</label>
-                <input type="radio" name="jenis-kelamin" id="wanita"><label for="wanita" value="wanita">Wanita</label>
+            <div class="container-jenis-kelamin">
+                <label for="" class="judul-form">Jenis Kelamin</label>
+                    <div class="jenis-kelamin">
+                        <input type="radio" name="jenis-kelamin" id="pria"><label for="pria" value="pria">Pria</label>
+                        <input type="radio" name="jenis-kelamin" id="wanita"><label for="wanita" value="wanita">Wanita</label>
+                    </div>
             </div>
-            <div>
-                <h3>Berat Badan</h3>
-                <input type="number" name="" id=""><label for="berat-badan"></label>
+             
+            <div class="container-berat-badan">
+                <label for="berat-badan" class="judul-form">Berat Badan</label>
+                    <div class="container-form">
+                    <i class="fa fa-pencil"></i>
+                    <input type="number" name="" id="berat-badan" class="berat-badan">
+                    </div>
             </div>
-            <div>
-                <h3>Tinggi Badan</h3>
-                <input type="number" name="" id="">
+            <div class="container-tinggi-badan">
+                <label class="judul-form">Tinggi Badan</label>
+                <div class="container-form">
+                <i class="fa fa-pencil"></i>
+                <input type="number" name="" id="" class="tinggi-badan">
+                </div>
             </div>
-            <div>
-                <button>Hitung</button>
-                <button>Reset</button>
+            <div class="button">
+                <button class="hitung">Hitung</button>
+                <button class="reset">Reset</button>
             </div>
         </form>
         <article>

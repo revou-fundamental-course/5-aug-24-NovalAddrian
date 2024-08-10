@@ -1,12 +1,151 @@
-form {
-    background-color: aliceblue;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* CSS Reset */
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background-color: #eef1f7;
+}
+
+form {
+    background-color: #E6F2F8;
+    border-radius: 8px;
+    padding: 20px 15px 20px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
 main {
     display: flex;
+    background-color: white;
+    margin: 55px 100px 0;
+    box-sizing: border-box;
+    width: 100%;
+    width: auto;
 }
+
 .main-title {
     text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    padding-top: 50px;
+    
 }
+
 aside {
     padding: 48px;
+    width: 100%;
+}
+
+label {
+    font-weight: 700;
+}
+
+.judul-form {
+    font-size: 18px;
+}
+
+main p {
+    text-align: justify;
+}
+
+.container-jenis-kelamin {
+    margin-bottom: 20px;
+}
+
+ .jenis-kelamin {
+    margin-top: 5px;
+}
+
+.berat-badan, .tinggi-badan {
+    width: 473px;
+    height: 40px;
+    border: 1px solid #c5d8e2;
+
+}
+
+.button {
+    margin-top: 40px;
+}
+.container-form  {
+    display: inline-block;
+    border:1px solid #c9e8f8;
+    box-sizing: border-box;
+    margin-top: 10px;
+    background-color: #c3e3f5;
+    border: 1px solid #c5d8e2;
+    border-radius: 3px;
+
+}
+
+.container-berat-badan, .container-tinggi-badan {
+    margin-bottom: 20px
+}
+i {
+    margin: 5px;
+    font-size: large;
+    color: #999b9c;
+}
+.hitung {
+    background-color: #85cef5;
+    border: 1px solid #9a9a9a;
+    margin-right: 8px;
+    width: 70px;
+    height: 30px;       
+    font-size: 13px;
+    border-radius: 3px;
+}
+.reset {
+    background-color: #cee7f3;
+    border: 1px solid #9a9a9a;
+    width: 60px;
+    height: 25px;
+    border-radius: 3px;
+}
+.reset:active , .hitung:active {
+    background-color: white;
 }
